@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* banner section */
+.banner {
+    background-color: rgb(6, 6, 160);
+    background-image: url('../images/banner-pic.png');
+    background-size: cover;
+    height: 100vh;
+}
+
+.contact-btn {
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    height: 64px;
+    border-radius: 5px;
+    border: 0;
+    background: #FFFFFF;
+    padding: 20px 25px;
+}
+
+.banner-details {
+    text-align: right;
+    padding-top: 150px;
+    padding-right: 150px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.banner-description {
+    color: #FFFFFF;
+    margin-bottom: 23px;
+
+}
+
+/* about section */
+.about-part {
+    display: flex;
+    align-items: center;
+    width: 1072px;
+    margin: 120px auto;
+}
+
+.about-description {
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.about-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+    color: #151414;
+}
+
+.about-sub-title {
+    color: #444343;
+    margin-bottom: 24px;
+}
+
+.about-part li {
+    list-style: url(../images/icons/check.png);
+    color: #444343;
+}
+
+/* plans section */
+
+.section-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    padding-left: 20px;
+}
+
+.my-plans {
+    padding: 10px;
+    text-align: center;
+}
+
+.plans-container {
+    display: flex;
+    padding-left: 250px;
+    padding-top: 50px;
+    gap: 24px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #151414;
+}
+
+.skill-description {
+    font-weight: 400;
+    font-size: 20px;
+    color: #737272;
+}
+
+/* call section  */
+
+.call-section {
+    background-image: url("../images/watch.png"), linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    width: 1140px;
+    height: 300px;
+    margin: 130px 20px 145px 100px;
+}
+
+.call-description {
+    padding: 58px 605px 58px 76px;
+}
+
+.call-description-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.call-btn {
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    height: 64px;
+    border-radius: 5px;
+    border: 0;
+    background: #FFFFFF;
+    padding: 20px 25px;
+    margin-top: 24px;
+}
+
+/* footer section  */
+
+.contact {
+    display: flex;
+    /* gap: 100px; */
+    background: #151414;
+    height: 450px;
+}
+
+/* .contact .contact-description{
+    text-align: left;
+} */
+.contact-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+}
+
+.contact-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.first-contact {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.second-contact {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.sub-title {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.contact input {
+    padding: 22px 158px 22px 21px;
+    border-radius: 8px;
+}
+.sub-btn{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    height: 64px;
+    border-radius: 5px;
+    border: 0;
+    background: #005FAC;
+    padding: 20px 25px;
+    margin-top: 24px;
+}
+.contact a{
+    text-decoration: none;
+}
+.sub-section{
+    margin-top: 100px;
+    margin-left: 260px;
+}
+.contect-section{
+    margin-top: 90px;
+    padding-left: 200px;
+}
+.contact-title{
+    margin-bottom: 15px;
+}
+.contact-description{
+    margin-bottom: 25px;
+}
+.first-contact{
+    margin-bottom: 10px;
+}
+.second-contact{
+    margin-bottom: 10px;
+}
+.social-media {
+    margin-top: 20px;
+}
