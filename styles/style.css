@@ -103,6 +103,44 @@
     color: #737272;
 }
 
+/* resume section */
+.resume {
+    margin: 100px 40px 10px 40px;
+}
+
+.summary-title {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.resume-content {
+    display: flex;
+    gap: 24px;
+    margin-left: 65px;
+}
+
+.title {
+    color: #444343;
+    margin-top: 10px;
+}
+
+.resume-title {
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.resume .sub-title {
+    color: #444343;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.resume .description {
+    color: #444343;
+}
+
 /* call section  */
 
 .call-section {
@@ -141,14 +179,10 @@
 
 .contact {
     display: flex;
-    /* gap: 100px; */
     background: #151414;
     height: 450px;
 }
 
-/* .contact .contact-description{
-    text-align: left;
-} */
 .contact-title {
     font-weight: 700;
     font-size: 45px;
@@ -179,11 +213,13 @@
     color: #FFFFFF;
     margin-bottom: 20px;
 }
+
 .contact input {
     padding: 22px 158px 22px 21px;
     border-radius: 8px;
 }
-.sub-btn{
+
+.sub-btn {
     color: #FFFFFF;
     font-weight: 600;
     font-size: 20px;
@@ -194,29 +230,37 @@
     padding: 20px 25px;
     margin-top: 24px;
 }
-.contact a{
+
+.contact a {
     text-decoration: none;
 }
-.sub-section{
+
+.sub-section {
     margin-top: 100px;
     margin-left: 260px;
 }
-.contect-section{
+
+.contect-section {
     margin-top: 90px;
     padding-left: 200px;
 }
-.contact-title{
+
+.contact-title {
     margin-bottom: 15px;
 }
-.contact-description{
+
+.contact-description {
     margin-bottom: 25px;
 }
-.first-contact{
+
+.first-contact {
     margin-bottom: 10px;
 }
-.second-contact{
+
+.second-contact {
     margin-bottom: 10px;
 }
+
 .social-media {
     margin-top: 20px;
 }
