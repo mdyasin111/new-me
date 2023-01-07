@@ -5,7 +5,7 @@
 
 /* banner section */
 .banner {
-    background-color: rgb(6, 6, 160);
+    background-color: #1377B3;
     background-image: url('../images/banner-pic.png');
     background-size: cover;
     height: 100vh;
@@ -38,7 +38,6 @@
 .banner-description {
     color: #FFFFFF;
     margin-bottom: 23px;
-
 }
 
 /* about section */
@@ -87,9 +86,9 @@
 
 .plans-container {
     display: flex;
-    padding-left: 250px;
+    padding-left: 220px;
     padding-top: 50px;
-    gap: 24px;
+    gap: 60px;
 }
 
 .skill-title {
